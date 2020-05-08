@@ -1,0 +1,75 @@
+.hero {
+    height:100%;
+    width:100%;
+    background: url('../../assets/icons/errorlogo.svg') no-repeat center ;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    height:100%;
+    width:100%;
+}
+.container .innerC {
+    height : 100%;
+    width : 100%;
+
+}
+.innerC .heading p{
+    font-size:28px;
+    margin : 0;
+    padding : 0;
+    color :rgba(226, 76, 75, 0.62);
+}
+
+.innerC .heading {
+    color:#E24C4B;
+    margin:0;   
+    padding: 0;
+    font-weight : bold;
+    font-size:5rem;
+}
+
+.subhead_desc .description {
+    padding:16px;
+    font-size:18px;
+    margin:auto;
+    color:#9c9c9c;
+    width:75%;
+} 
+
+@media (min-width:500px) {
+    .hero {
+        height:100%;
+        width:100%;
+        background: url('../../assets/icons/errorlogo.svg') no-repeat center ;
+    }
+    .container{
+        background-color: rgba(255, 255, 255, 0.9);
+        height:100%;
+        width:100%;
+    }
+    .container .innerC {
+        height : 100%;
+        width : 100%;
+        padding:11% 0;
+    }
+    .innerC .heading p{
+        font-size:36px;
+        margin : 0;
+        padding : 0;
+        color :rgba(226, 76, 75, 0.62);
+    }
+    .innerC .heading {
+        color:#E24C4B;
+        margin:0;
+        font-weight : bold;
+        font-size:10rem;
+    }
+    .subhead_desc .description {
+        padding:16px;
+        font-size:24px;
+        margin:auto;
+        color:#9c9c9c;
+        width:75%;
+    } 
+    
+}

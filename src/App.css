@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700');
+
 .App {
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  transition: all 0.3s ease-in-out;
+}
+.App-logo img{
+  height: 40vmin;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width:500px) {
+  .App-logo img{
+    height: 20vmin;
+    width: 100%;
+  }
+  .App-logo {
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +38,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
